@@ -1,0 +1,42 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+Access-Control-Allow-Origin: *
+
+{
+  "location": {
+    "name": "Moscow",
+    "region": "Moscow City",
+    "country": "Russia",
+    "lat": 55.75,
+    "lon": 37.62,
+    "tz_id": "Europe/Moscow",
+    "localtime_epoch": 1502982687,
+    "localtime": "2017-08-17 18:11"
+  },
+  "current": {
+    "last_updated_epoch": 1502982000,
+    "last_updated": "2017-08-17 18:00",
+    "temp_c": 4,
+    "temp_f": 175.2,
+    "is_day": 1,
+    "condition": {
+      "text": "Sunny",
+      "icon": "//cdn.apixu.com/weather/64x64/day/113.png",
+      "code": 1000
+    },
+    "wind_mph": 6.9,
+    "wind_kph": 11.2,
+    "wind_degree": 120,
+    "wind_dir": "ESE",
+    "pressure_mb": 1025,
+    "pressure_in": 30.8,
+    "precip_mm": 0,
+    "precip_in": 0,
+    "humidity": 50,
+    "cloud": 0,
+    "feelslike_c": 25.2,
+    "feelslike_f": 77.4,
+    "vis_km": 10,
+    "vis_miles": 6
+  }
+}
