@@ -22,14 +22,14 @@ gemini-gui --config [gemini-сonfig] [file test]
 gemini update [paths to test suites]
 ```
 
-## Mockserver.Установка
+## Mockserver. Установка
 
 ```
 npm install -g mockserver
 npm install mockserver
 ```
 
-## Mockserver.Запуск
+## Mockserver. Запуск
 
 ```
 mockserver -p 8080 -m test/mocks
